@@ -205,8 +205,11 @@ def build_snapshot(previous, now):
             items, latest = result
             for item in items:
                 old = prior_by_url.get(item["url"], {})
-                if item["facts"] == old.get("facts") and old.get("facts_zh"):
-                    item["facts_zh"] = old["facts_zh"]
+                if item["facts"] == old.get("facts"):
+                    if old.get("facts_zh"):
+                        item["facts_zh"] = old["facts_zh"]
+                    if old.get("translation_checked"):
+                        item["translation_checked"] = True
                     if old.get("facts_basis") == "official":
                         item["facts_basis"] = "official"
             current.extend(items)

@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 const input = resolve(process.argv[2] || "data/market_news.json");
 const snapshot = JSON.parse(await readFile(input, "utf8"));
-const pending = snapshot.items.filter((item) => item.facts && !item.facts_zh);
+const pending = snapshot.items.filter((item) => item.facts && !item.facts_zh && !item.translation_checked);
 if (!pending.length) process.exit(0);
 
 const { env, pipeline } = await import("@huggingface/transformers");
@@ -46,11 +46,10 @@ for (let start = 0; start < pending.length; start += 6) {
       item.facts_zh = summary;
       translated += 1;
     }
+    item.translation_checked = true;
   }
 }
-if (translated) {
-  const temporary = `${input}.tmp`;
-  await writeFile(temporary, JSON.stringify(snapshot, null, 2) + "\n", "utf8");
-  await rename(temporary, input);
-}
+const temporary = `${input}.tmp`;
+await writeFile(temporary, JSON.stringify(snapshot, null, 2) + "\n", "utf8");
+await rename(temporary, input);
 console.log(`Chinese summaries generated: ${translated}/${pending.length}`);

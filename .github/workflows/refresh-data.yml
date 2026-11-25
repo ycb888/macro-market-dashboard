@@ -1,0 +1,93 @@
+name: Refresh market data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-data.yml'
+      - 'scripts/**'
+      - 'package*.json'
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: market-news-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare data branch and collect sources
+        id: data
+        shell: bash
+        run: |
+          ref=refs/heads/market-news-data
+          target="$RUNNER_TEMP/market-data"
+          existing="$(git ls-remote --heads origin "$ref")"
+          if [[ -n "$existing" ]]; then
+            git fetch --depth=1 --no-tags origin "$ref"
+            git worktree add --detach "$target" FETCH_HEAD
+          else
+            git worktree add --detach "$target" HEAD
+            git -C "$target" switch --orphan market-news-data
+            mkdir -p "$target/data"
+            cp data/market_{news,dashboard}.json "$target/data/"
+          fi
+          python3 scripts/fetch_dashboard.py --output "$target/data/market_dashboard.json" --min-hours 12 ||
+            echo "::warning::Market indicators retained the previous snapshot."
+          python3 scripts/fetch_market_news.py --output "$target/data/market_news.json" ||
+            echo "::warning::Market news retained the previous snapshot."
+          echo "directory=$target" >> "$GITHUB_OUTPUT"
+          python3 - "$target/data/market_news.json" <<'PY'
+          import json
+          import os
+          import sys
+
+          with open(sys.argv[1], encoding="utf-8") as source:
+              items = json.load(source)["items"]
+          if any(item.get("facts") and not item.get("facts_zh") and not item.get("translation_checked") for item in items):
+              with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+                  output.write("translate=true\n")
+          PY
+
+      - if: steps.data.outputs.translate == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - if: steps.data.outputs.translate == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .model-cache
+          key: nllb-en-zh-261c31d-q8
+      - name: Generate Chinese news summaries
+        if: steps.data.outputs.translate == 'true'
+        continue-on-error: true
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+          NEWS_DIR: ${{ steps.data.outputs.directory }}
+        run: |
+          npm ci --no-audit --no-fund
+          node scripts/translate_news.mjs "$NEWS_DIR/data/market_news.json"
+
+      - name: Publish data snapshot
+        env:
+          NEWS_DIR: ${{ steps.data.outputs.directory }}
+        shell: bash
+        run: |
+          git -C "$NEWS_DIR" add data/market_news.json data/market_dashboard.json
+          if git -C "$NEWS_DIR" diff --cached --quiet; then
+            exit 0
+          fi
+          git -C "$NEWS_DIR" -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Refresh market and news data"
+          git -C "$NEWS_DIR" push origin HEAD:refs/heads/market-news-data
