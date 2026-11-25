@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1628">
+  <meta name="description" content="追踪海外市场新闻、宏观数据与地缘事件，查看短期股市影响及验证指标。">
+  <title>市场新闻 | 宏观市场看板</title>
+  <link rel="stylesheet" href="css/market-news.css">
+  <script src="js/market-data.js" defer></script>
+  <script src="js/market-news.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <nav class="wrap site-nav" aria-label="站点导航">
+      <a class="site-name" href="./">宏观市场看板</a>
+      <a class="current" href="#news" aria-current="page">市场新闻</a>
+      <a class="source-jump" href="#news-sources">消息源</a>
+    </nav>
+  </header>
+
+  <main class="wrap" id="news">
+    <div class="page-heading">
+      <div>
+        <h1>市场新闻</h1>
+        <p>海外股市、经济发布与影响市场的政治军事事件</p>
+      </div>
+      <div class="feed-update">
+        <button class="refresh" id="refresh-news" type="button">刷新资讯</button>
+        <p id="feed-status" role="status">正在读取新闻快照…</p>
+      </div>
+    </div>
+
+    <section class="market-context" aria-labelledby="context-heading">
+      <div class="section-heading">
+        <h2 id="context-heading">市场指标</h2>
+        <span>日频 · 各卡片标注数据日期</span>
+      </div>
+      <div class="metrics" id="metrics" aria-label="市场指标"></div>
+    </section>
+
+    <div class="columns">
+      <section class="news-stream" aria-labelledby="stream-heading">
+        <div class="section-heading">
+          <h2 id="stream-heading">最新事件</h2>
+          <span id="item-count" role="status"></span>
+        </div>
+
+        <div class="filters">
+          <label>时间
+            <select id="period">
+              <option value="24">最近 24 小时</option>
+              <option value="48" selected>最近 48 小时</option>
+              <option value="168">最近 7 天</option>
+            </select>
+          </label>
+          <label>主题
+            <select id="category">
+              <option value="">全部主题</option>
+              <option value="markets">股市与资金</option>
+              <option value="macro">宏观与央行</option>
+              <option value="geopolitics">政策与地缘</option>
+              <option value="corporate">公司与行业</option>
+            </select>
+          </label>
+          <label>市场影响
+            <select id="direction">
+              <option value="">全部标注</option>
+              <option value="bullish">利好</option>
+              <option value="bearish">利空</option>
+              <option value="mixed">分化</option>
+              <option value="watch">待确认</option>
+            </select>
+          </label>
+          <label>来源
+            <select id="publisher">
+              <option value="">全部来源</option>
+              <option value="bloomberg">Bloomberg</option>
+              <option value="bbc">BBC News</option>
+              <option value="official">官方发布</option>
+            </select>
+          </label>
+        </div>
+
+        <p class="stream-status" id="stream-status" role="status">正在加载事件…</p>
+        <ol class="events" id="events"></ol>
+        <button id="more-events" class="more" type="button" hidden>显示更多</button>
+        <noscript><p>请启用 JavaScript 以查看新闻。</p></noscript>
+      </section>
+
+      <aside id="news-sources" aria-label="消息源与标签说明">
+        <section class="side-panel" aria-labelledby="source-heading">
+          <h2 id="source-heading">自动采集</h2>
+          <ul class="source-list">
+            <li>
+              <a href="https://www.bloomberg.com/markets" target="_blank" rel="noopener noreferrer">Bloomberg</a>
+              <span data-feed-state="bloomberg"></span>
+              <p>市场、经济、政治</p>
+            </li>
+            <li>
+              <a href="https://www.bbc.com/news/world" target="_blank" rel="noopener noreferrer">BBC News</a>
+              <span data-feed-state="bbc"></span>
+              <p>国际局势与商业</p>
+            </li>
+            <li>
+              <a href="https://www.federalreserve.gov/feeds/feeds.htm" target="_blank" rel="noopener noreferrer">美联储</a>
+              <span data-feed-state="fed"></span>
+              <p>利率决定、会议纪要等</p>
+            </li>
+            <li>
+              <a href="https://www.bls.gov/feed/" target="_blank" rel="noopener noreferrer">BLS</a>
+              <span data-feed-state="bls"></span>
+              <p>美国 CPI、就业</p>
+            </li>
+            <li>
+              <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer">BEA</a>
+              <span data-feed-state="bea"></span>
+              <p>美国 GDP、PCE 等数据</p>
+            </li>
+            <li>
+              <a href="https://www.eia.gov/tools/rssfeeds/" target="_blank" rel="noopener noreferrer">EIA</a>
+              <span data-feed-state="eia"></span>
+              <p>能源供需与市场分析</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="side-panel" aria-labelledby="verify-heading">
+          <h2 id="verify-heading">交叉核实</h2>
+          <ul class="source-list cross-check">
+            <li><a href="https://www.reuters.com/markets/" target="_blank" rel="noopener noreferrer">Reuters Markets</a><p>全球市场与突发事件</p></li>
+            <li><a href="https://apnews.com/world-news" target="_blank" rel="noopener noreferrer">AP World</a><p>国际政治及冲突报道</p></li>
+            <li><a href="https://ofac.treasury.gov/recent-actions" target="_blank" rel="noopener noreferrer">美国财政部 OFAC</a><p>制裁生效日期与适用范围</p></li>
+          </ul>
+          <details id="social-news">
+            <summary>X / Twitter 快讯</summary>
+            <p>社交平台消息请用原始公告或多家媒体核实。</p>
+            <div class="social-links">
+              <a href="https://x.com/Reuters" target="_blank" rel="noopener noreferrer">@Reuters</a>
+              <a href="https://x.com/markets" target="_blank" rel="noopener noreferrer">@markets</a>
+              <a href="https://x.com/federalreserve" target="_blank" rel="noopener noreferrer">@federalreserve</a>
+            </div>
+            <div id="x-timeline"></div>
+          </details>
+        </section>
+
+        <details class="side-panel methodology">
+          <summary>影响标签与更新说明</summary>
+          <p>内容摘要依据公开报道简介或机构公告。来源只提供标题时，卡片会注明摘要依据。</p>
+          <p>利好与利空针对卡片所列市场或板块，按短期传导研判。分化表示不同板块方向可能相反，或同一事件存在相反的作用渠道。待确认表示条件、预期差或方向仍待核实。</p>
+          <p>「已报道走势」描述报道中的市场变化。「情景研判」是按公开标题推断的影响。日期时间统一为北京时间。公开订阅源计划每 30 分钟检查一次，实际到达时间取决于来源与任务运行。</p>
+        </details>
+      </aside>
+    </div>
+  </main>
+
+  <template id="event-template">
+    <li class="event">
+      <article>
+        <div class="event-meta">
+          <span class="event-source"></span>
+          <time class="event-date"></time>
+          <span class="event-category"></span>
+        </div>
+        <h3><a class="event-link" lang="en" target="_blank" rel="noopener noreferrer"></a></h3>
+        <div class="event-facts">
+          <strong class="event-facts-label">内容摘要</strong>
+          <p class="event-facts-text"></p>
+        </div>
+        <div class="event-impact">
+          <span class="tag"></span>
+          <span class="event-market"></span>
+          <span class="event-basis"></span>
+        </div>
+        <p class="event-summary"></p>
+        <p class="event-watch"></p>
+      </article>
+    </li>
+  </template>
+</body>
+</html>

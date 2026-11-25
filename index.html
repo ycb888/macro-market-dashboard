@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1628">
+  <meta name="description" content="跟踪全球股市、宏观指标、利率、信用与海外市场新闻。">
+  <title>宏观市场看板</title>
+  <link rel="stylesheet" href="css/market-news.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script src="js/market-data.js" defer></script>
+  <script src="js/dashboard.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <nav class="wrap site-nav" aria-label="站点导航">
+      <a class="site-name" href="./">宏观市场看板</a>
+      <a class="current" href="#overview" aria-current="page">市场总览</a>
+      <a class="nav-link" href="#macro">宏观指标</a>
+      <a class="nav-link" href="market-news.html">市场新闻</a>
+    </nav>
+  </header>
+
+  <main class="wrap dashboard" id="overview">
+    <div class="page-heading">
+      <div>
+        <h1>宏观市场看板</h1>
+        <p>跟踪全球股指、利率和风险，查看影响市场的最新消息。</p>
+      </div>
+      <p class="data-status" id="dashboard-status" role="status">正在读取指标…</p>
+    </div>
+
+    <section aria-labelledby="stocks-heading" class="market-overview">
+      <div class="section-heading">
+        <h2 id="stocks-heading">主要股指</h2>
+        <span>日频 · 各自市场收盘</span>
+      </div>
+      <div class="stock-grid" id="stocks"></div>
+    </section>
+
+    <div class="dashboard-columns">
+      <section class="dashboard-panel trend-panel" aria-labelledby="trend-heading">
+        <div class="section-heading">
+          <h2 id="trend-heading">走势</h2>
+          <div class="chart-options">
+            <label>
+              <span class="visually-hidden">指标</span>
+              <select id="trend-indicator" aria-label="走势指标"></select>
+            </label>
+            <label>
+              <span class="visually-hidden">时段</span>
+              <select id="trend-window" aria-label="走势时段">
+                <option value="30">1 个月</option>
+                <option value="92" selected>3 个月</option>
+                <option value="183">6 个月</option>
+                <option value="365">1 年</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div id="trend-overview" class="trend-overview" aria-live="polite"></div>
+        <canvas id="trend-chart" role="img" aria-label="所选指标的历史走势"></canvas>
+        <p id="trend-empty" class="empty" hidden>这个时段没有足够的观测点。</p>
+        <p id="trend-caption" class="panel-note"></p>
+      </section>
+
+      <section class="dashboard-panel" id="risk" aria-labelledby="risk-heading">
+        <div class="section-heading">
+          <h2 id="risk-heading">利率与风险</h2>
+          <span>较前一观测</span>
+        </div>
+        <div class="risk-list" id="risk-list"></div>
+      </section>
+    </div>
+
+    <div class="dashboard-columns lower-columns" id="macro">
+      <section class="dashboard-panel" aria-labelledby="macro-heading">
+        <div class="section-heading">
+          <h2 id="macro-heading">宏观指标</h2>
+          <span>周频与月频</span>
+        </div>
+        <div class="table-wrap">
+          <table class="macro-table">
+            <thead><tr><th scope="col">指标</th><th scope="col">最新值</th><th scope="col">观测期</th></tr></thead>
+            <tbody id="macro-rows"></tbody>
+          </table>
+        </div>
+        <p class="panel-note">OECD 领先指标以 100 为长期趋势线。通胀同比按季调指数计算。</p>
+        <div class="release-links">
+          <a href="https://www.bls.gov/schedule/news_release/" target="_blank" rel="noopener noreferrer">美国通胀与就业日历</a>
+          <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer">BEA 发布日历</a>
+          <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer">美联储议息日历</a>
+        </div>
+      </section>
+
+      <section class="dashboard-panel" aria-labelledby="news-heading">
+        <div class="section-heading">
+          <h2 id="news-heading">最新新闻</h2>
+          <a href="market-news.html">全部市场新闻</a>
+        </div>
+        <div id="headline-list" class="headline-list"></div>
+      </section>
+    </div>
+    <footer class="dashboard-footer">
+      <p>数据来自 FRED 与 Yahoo Finance。消息的发布时间使用北京时间，指标以原始观测日期为准。</p>
+      <a href="https://github.com/ycb888/macro-market-dashboard">GitHub 项目</a>
+    </footer>
+  </main>
+</body>
+</html>

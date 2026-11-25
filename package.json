@@ -1,0 +1,7 @@
+{
+  "name": "macro-market-dashboard",
+  "private": true,
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1"
+  }
+}
