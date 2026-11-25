@@ -1,68 +1,432 @@
 {
-  "collected_at": "2026-11-25T08:40:47Z",
+  "collected_at": "2026-11-25T18:50:29Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-25T08:26:23Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T18:02:51Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-25T07:12:58Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T17:37:56Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-25T08:04:18Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T18:41:16Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-25T08:38:13Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T18:29:42Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-25T07:26:54Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T18:41:33Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
+      "last_success_at": "2026-11-25T18:50:29Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
+      "last_success_at": "2026-11-25T18:50:29Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
+      "last_success_at": "2026-11-25T18:50:29Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-20T13:30:00Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-25T08:40:47Z",
-      "latest_published_at": "2026-11-24T14:00:00Z"
+      "last_success_at": "2026-11-25T18:50:29Z",
+      "latest_published_at": "2026-11-25T14:00:00Z"
     }
   },
   "items": [
+    {
+      "title": "US stocks fall further as fears over AI intensify",
+      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo",
+      "published_at": "2026-11-25T17:48:09Z",
+      "feed": "bbc-business",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "bearish",
+        "market": "美股",
+        "summary": "报道所涉股市出现下跌。",
+        "watch": "对应指数、板块广度与收盘表现",
+        "basis": "已报道走势"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Michael Burry Is More Long Than Short After Dumping Nasdaq Puts",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/michael-burry-is-more-long-than-short-after-dumping-nasdaq-puts",
+      "published_at": "2026-11-25T17:18:09Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "The selloff in technology stocks has left investor Michael Burry, who became famous for betting against the US mortgage market in 2008, with more long equity positions than short ones after unloading his put options on the tech-heavy Nasdaq 100 Index.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Bank of England Rate-Setters Leave December Hike on the Table",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/bank-of-england-rate-setters-leave-december-hike-on-the-table",
+      "published_at": "2026-11-25T16:49:25Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Three Bank of England policymakers said they cannot ignore the threat to inflation from persistently high energy prices, leaving the door open to a further interest-rate hike next month.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "英国银行三位决策者表示,他们不能忽视持续高能源价格的通货膨胀威胁, அடுத்த月进一步提高利率的门户开放. அடுத்த மாதம். அடுத்த மாதத்தில் அடுத்த മാസം, அடுத்த ತಿಂಗಳು, வட்டி விகிதம். வட்டியை அதிகரிக்க வேண்டும். இங்ங்டென் வட்டி விளிமையும், இஞ்சல் வட்டி வின் விகிதங்கள் உயர்வு. இந்தத் திட்டம், இந்த மின",
+      "translation_checked": true
+    },
+    {
+      "title": "Anthropic’s Post-IPO Struggles Contrast With SpaceX’s Early Days",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/anthropic-s-post-ipo-struggles-contrast-with-spacex-s-early-days",
+      "published_at": "2026-11-25T16:45:00Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "corporate",
+      "facts": "Anthropic PBC is experiencing a rougher initiation to public markets than SpaceX, and a host of market and technical factors threaten to weigh down its stock performance before the Claude developer reports for the first time as a public company early next year.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关公司及同行",
+        "summary": "消息首先影响公司的盈利或合规预期，指数层面的影响取决于权重和行业传导。",
+        "watch": "公司公告、行业指数及相对表现",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
+      "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo",
+      "published_at": "2026-11-25T16:42:11Z",
+      "feed": "bbc-business",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "corporate",
+      "facts": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "英伟达 (NVDA)",
+        "summary": "消息首先影响公司的盈利或合规预期，指数层面的影响取决于权重和行业传导。",
+        "watch": "公司公告、行业指数及相对表现",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Russian Refinery Runs Drop to Lowest in Decades, Rystad Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/russian-refinery-runs-plunge-to-lowest-in-decades-rystad-says",
+      "published_at": "2026-11-25T16:38:16Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Russia’s oil processing rates have plunged to the lowest in more than two decades as Ukraine continues to strike refineries, according to Rystad Energy, heaping pressure on the country’s domestic fuel supplies.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+      "published_at": "2026-11-25T16:21:34Z",
+      "feed": "bbc-business",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "geopolitics",
+      "facts": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "facts_zh": "美国正准备公布新的关税计划。BBC 报道称，若新关税落地，可能波及中国和欧盟等主要贸易伙伴。"
+    },
+    {
+      "title": "Russian Inflation Hits One-Year High in October as War Escalates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/russian-inflation-hits-one-year-high-in-october-as-war-escalates",
+      "published_at": "2026-11-25T16:13:15Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Russian inflation accelerated to the fastest pace in a year in October as persistent drone strikes deep inside the country reduced production capacity.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "ECB in No Rush to Increase Banks’ Minimum Reserves After Debate",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/ecb-in-no-rush-to-increase-banks-minimum-reserves-after-debate",
+      "published_at": "2026-11-25T15:30:24Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "European Central Bank officials are unlikely to make any imminent change in the amount of money euro-zone banks must hold at the institution even if several are leaning toward an increase, people familiar with the matter said.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trump Tariff List: These Economies Hit by Targeted US Deal Rates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-proposes-excess-capacity-tariffs-full-list",
+      "published_at": "2026-11-25T14:39:35Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "The following is a list of tariffs announced on Nov. 25 by the US Trade Representative:",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Embraer Shares Sink as US Threatens Brazil Aircraft Tariff",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/embraer-sinks-most-since-may-as-us-proposes-brazil-aircraft-levy",
+      "published_at": "2026-11-25T14:02:53Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "Embraer SA shares fell the most in more than six months after the US proposed a 10% tariff on aircraft from Brazil, threatening the planemaker’s business in one of its most important markets.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Stocks Selloff Hits Unlikely Market, Sinking Carry Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/stocks-meltdown-spills-into-unlikely-market-sinking-carry-trade",
+      "published_at": "2026-11-25T14:01:11Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "One of Wall Street’s most reliable wagers of 2026 is starting to lose its surefire status.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "bearish",
+        "market": "报道所涉股市",
+        "summary": "报道所涉股市出现下跌。",
+        "watch": "对应指数、板块广度与收盘表现",
+        "basis": "已报道走势"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "published_at": "2026-11-25T13:30:00Z",
+      "feed": "bea-releases",
+      "source": "U.S. Bureau of Economic Analysis",
+      "group": "bea",
+      "category": "macro",
+      "facts": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Personal Income and Outlays, October 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "published_at": "2026-11-25T13:30:00Z",
+      "feed": "bea-releases",
+      "source": "U.S. Bureau of Economic Analysis",
+      "group": "bea",
+      "category": "macro",
+      "facts": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and…",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "US Targets China, EU With New Tariffs Citing Overcapacity",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-targets-china-eu-with-new-tariffs-after-overcapacity-probe",
+      "published_at": "2026-11-25T13:13:21Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "The US announced plans to impose a fresh round of tariffs on goods from China, the European Union and a dozen other economies under President Donald Trump’s push to restore sweeping global import taxes that the Supreme Court found unconstitutional.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "facts_zh": "美国宣布,在唐纳德特朗普总统的推动下,将对来自中国,欧盟和其他十几个经济体的商品征收新的关税, உச்சநீதிமன்ற认为违宪的全球进口税. உத்தரபிரதான நீதிமன்றம், அமெரிக்கா, உலகின் உச்சநீதிபதி டொனால்டு டிரம்ப், அமெரிக்க அதிபர் டிரம்ப் டு டு  உச்சிமாநாட்டின் கீழ், ஐரோப்பிய ஒன்றியம், ஐரோப்பிய ஒன்றிய, ஐரோப்பிய ஒன்ற",
+      "translation_checked": true
+    },
+    {
+      "title": "Your Thanksgiving Meal Costs More as US Food Inflation Returns",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-25/your-thanksgiving-meal-costs-more-as-us-food-inflation-returns",
+      "published_at": "2026-11-25T12:00:01Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Inflation is on the menu for the holidays",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "假期的通货膨胀是菜单中的 La inflación L'inflation Το ρέμα Το μενού Το λ Το πρόγραμμα των διακοσμητών. Το φεστιβάλ Το κατά τις γιορτες Το διακοσμή Το ελληνικό Το σκεπτικό Το μερίδιο των διακοπρωσης",
+      "translation_checked": true
+    },
+    {
+      "title": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/ecb-can-t-fall-behind-curve-on-interest-rates-kocher-says",
+      "published_at": "2026-11-25T10:58:52Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "The European Central Bank can’t afford to get overtaken by inflation developments, Governing Council member Martin Kocher warned, suggesting he’d back interest rates being increased further.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+      "published_at": "2026-11-25T10:52:09Z",
+      "feed": "bbc-business",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "corporate",
+      "facts": "The verdict follows a months-long trial in New York.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关通信供应链",
+        "summary": "裁决带来合规及供应链不确定性，影响范围仍取决于判决和后续措施。",
+        "watch": "公司公告、行业指数及相对表现",
+        "basis": "待确认"
+      },
+      "facts_zh": "美国法院在纽约历时数月的审理后，裁定华为窃取商业秘密等指控成立，敲诈勒索相关指控不成立。"
+    },
+    {
+      "title": "Interest rate affect on Guernsey's housing market",
+      "url": "https://www.bbc.co.uk/news/videos/c6x29vne7lnko",
+      "published_at": "2026-11-25T09:56:33Z",
+      "feed": "bbc-business",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "macro",
+      "facts": "As interest rates rise, we look at the impact this could have on Guernsey's housing market.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
     {
       "title": "Murdoch-Backed Allen Career Is Said to Pick Banks for India IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-11-25/murdoch-backed-allen-career-is-said-to-pick-banks-for-india-ipo",
@@ -121,14 +485,14 @@
       "facts_zh": "英国能源监管机构将家庭能源价格上限上调约 26%，冬季供暖账单可能随之抬升。"
     },
     {
-      "title": "US Stock Index Futures Slide as AI Worries Fuel Tech Losses",
+      "title": "Nasdaq 100 Slumps as AI Worries Fuel Selloff in Tech Shares",
       "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-stock-index-futures-slide-as-ai-worries-fuel-tech-losses",
       "published_at": "2026-11-25T07:51:43Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "US stock futures signaled further declines as a global tech selloff continued to worry investors.",
+      "facts": "The Nasdaq 100 Index declined for a second day, sending it briefly into bear-market territory before paring some losses, as mounting fears about over-investment in AI pummeled shares of the biggest technology companies.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -137,7 +501,7 @@
         "watch": "主要指数、成交量、信用利差",
         "basis": "待确认"
       },
-      "facts_zh": "全球科技股持续遭抛售，市场对 AI 板块的担忧拖累美国股指期货，指向美股可能进一步走弱。"
+      "translation_checked": true
     },
     {
       "title": "AUD/USD: Aussie Set for Biggest Monthly Drop in Four Years as Stocks Fall",
@@ -223,7 +587,7 @@
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "macro",
-      "facts": "UK households are set for a sharp rise in energy costs in January as the Middle East war pushes up wholesale gas and electricity prices, with winter demand adding further pressure.",
+      "facts": "UK households are set for a 26% rise in energy costs in January as the Middle East war pushes up wholesale gas and electricity prices, with winter demand adding further pressure.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "bearish",
@@ -232,7 +596,7 @@
         "watch": "Ofgem 价格上限、英国零售数据",
         "basis": "情景研判"
       },
-      "facts_zh": "中东冲突抬高天然气和电力批发价，叠加冬季需求，英国居民明年 1 月起面临约 26% 的能源价格上限上调。"
+      "translation_checked": true
     },
     {
       "title": "China, US to Open New Chapter of Trade Talks, Ex-Negotiator Says",
@@ -252,6 +616,26 @@
         "basis": "待确认"
       },
       "facts_zh": "一名前中方谈判代表预计，现有为期一年的关税休战于 1 月到期，中美恢复贸易谈判后可能取得进一步进展。"
+    },
+    {
+      "title": "Treasury Yields Hit Two-Month Low as Risk-Off Move Accelerates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
+      "published_at": "2026-11-25T06:49:34Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Treasuries soared on Wednesday as a full-blown selloff in global equities over the sustainability of the AI trade prompted investors to rush into the safety of US government debt.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "由于全球股票的全面抛售, 由于人工智能贸易的可持续性, 债券上升, 投资者们急于冲进美国政府债务安全. 债务. புதன்கிழமை, புதன் கிழமை, 美国政府债券上市的债券上升. 美元债券上漲. AI 交易的持续性上, AI交易的持续增长, ஐ. ஐஐ. இந்த 交易",
+      "translation_checked": true
     },
     {
       "title": "Houthis Hit Saudi Finance Center, Extending Tit-for-Tat Attacks",
@@ -368,25 +752,6 @@
       "facts_zh": "BBC 报道，英伟达股价下跌约 7%。美国议员要求说明特朗普在黄仁勋复职一事中扮演的角色，司法部长回避了调查问题。"
     },
     {
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
-      "published_at": "2026-11-25T02:59:27Z",
-      "feed": "bbc-business",
-      "source": "BBC News",
-      "group": "bbc",
-      "category": "corporate",
-      "facts": "The verdict follows a months-long trial in New York.",
-      "facts_basis": "publisher",
-      "impact": {
-        "direction": "watch",
-        "market": "相关通信供应链",
-        "summary": "裁决带来合规及供应链不确定性，影响范围仍取决于判决和后续措施。",
-        "watch": "公司公告、行业指数及相对表现",
-        "basis": "待确认"
-      },
-      "facts_zh": "美国法院在纽约历时数月的审理后，裁定华为窃取商业秘密等指控成立，敲诈勒索相关指控不成立。"
-    },
-    {
       "title": "Japan’s Sales Tax Cut Plans Could Stall On No-Confidence Motion",
       "url": "https://www.bloomberg.com/news/articles/2026-11-25/japan-s-sales-tax-cut-plans-could-stall-on-no-confidence-motion",
       "published_at": "2026-11-25T01:15:01Z",
@@ -404,25 +769,6 @@
         "basis": "需核对预期"
       },
       "facts_zh": "日本反对党计划对高市早苗政府的文部科学大臣发起不信任动议，可能拖慢消费税下调法案按计划于 4 月生效的进程。"
-    },
-    {
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
-      "published_at": "2026-11-25T00:38:01Z",
-      "feed": "bbc-business",
-      "source": "BBC News",
-      "group": "bbc",
-      "category": "geopolitics",
-      "facts": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "facts_basis": "publisher",
-      "impact": {
-        "direction": "watch",
-        "market": "受影响进出口板块",
-        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
-        "watch": "税率、覆盖范围、生效时间及豁免条款",
-        "basis": "待确认"
-      },
-      "facts_zh": "美国正准备公布新的关税计划。BBC 报道称，若新关税落地，可能波及中国和欧盟等主要贸易伙伴。"
     },
     {
       "title": "California Nvidia Probe Goes On After CEO Return, Bonta Says",
@@ -444,23 +790,23 @@
       "facts_zh": "加州总检察长罗布·邦塔批评联邦政府处理英伟达及其 CEO 黄仁勋相关事件的方式，并表示加州将继续调查。"
     },
     {
-      "title": "Gold Declines as AI Doubts and Rate-Hike Bets Rattle Stocks",
+      "title": "Gold Slumps Below $3,500 on Rate Hike Outlook, AI Stocks Selloff",
       "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
       "published_at": "2026-11-24T23:51:22Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
-      "category": "macro",
-      "facts": "Gold fell, as stocks sold off on doubts over the durability of the artificial intelligence boom, and the White House’s latest tariff plans reinforced expectations of an interest-rate hike by the Federal Reserve.",
+      "category": "markets",
+      "facts": "Gold slid below $3,500 an ounce as a selloff in stocks continued and a key inflation print reinforced bets on further Federal Reserve rate hikes.",
       "facts_basis": "publisher",
       "impact": {
-        "direction": "watch",
-        "market": "相关股市",
-        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
-        "watch": "实际值与预期、2 年期美债收益率",
-        "basis": "需核对预期"
+        "direction": "bearish",
+        "market": "报道所涉股市",
+        "summary": "报道所涉股市出现下跌。",
+        "watch": "对应指数、板块广度与收盘表现",
+        "basis": "已报道走势"
       },
-      "facts_zh": "市场对 AI 热潮持续性的疑虑引发股票抛售，黄金也走弱。白宫最新关税计划使交易者对美联储加息的预期升温。"
+      "translation_checked": true
     },
     {
       "title": "Latest Oil Market News and Analysis for Nov. 25",
@@ -482,14 +828,14 @@
       "facts_zh": "尽管霍尔木兹海峡船只遇袭及周边能源设施遇袭引发担忧，供应增加的迹象仍占上风，油价下跌。"
     },
     {
-      "title": "Stock Losses Build as AI Trade Falters, Bonds Gain: Markets Wrap",
+      "title": "Stocks Fall as AI Jitters Spur Rush to Treasuries: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
       "published_at": "2026-11-24T22:09:18Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Stocks sold off and Nasdaq 100 futures signaled further weakness as doubts over the durability of the artificial intelligence boom drove investors out of technology shares. Treasuries and the dollar gained on haven demand.",
+      "facts": "Another burst of selling in tech stocks rattled Wall Street on mounting doubts about the artificial-intelligence trade, with investors turning to the safety of bonds.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "bearish",
@@ -498,7 +844,7 @@
         "watch": "对应指数、板块广度与收盘表现",
         "basis": "已报道走势"
       },
-      "facts_zh": "投资者对 AI 热潮持续性的疑虑加剧，科技股遭抛售，纳斯达克 100 期货指向进一步走弱。避险需求推动美债与美元上涨。"
+      "translation_checked": true
     },
     {
       "title": "Bank of Korea Seen Resuming Rate Hikes as AI Boom Stokes Growth",
