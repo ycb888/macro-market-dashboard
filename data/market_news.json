@@ -1,68 +1,431 @@
 {
-  "collected_at": "2026-11-26T10:52:11Z",
+  "collected_at": "2026-11-26T20:10:44Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
-      "latest_published_at": "2026-11-26T09:55:38Z"
+      "last_success_at": "2026-11-26T20:10:44Z",
+      "latest_published_at": "2026-11-26T20:00:15Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
-      "latest_published_at": "2026-11-26T10:33:26Z"
+      "last_success_at": "2026-11-26T20:10:44Z",
+      "latest_published_at": "2026-11-26T19:41:34Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
-      "latest_published_at": "2026-11-26T10:36:36Z"
+      "last_success_at": "2026-11-26T20:10:44Z",
+      "latest_published_at": "2026-11-26T18:29:39Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
-      "latest_published_at": "2026-11-26T10:15:47Z"
+      "last_success_at": "2026-11-26T20:10:44Z",
+      "latest_published_at": "2026-11-26T19:55:58Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
-      "latest_published_at": "2026-11-26T10:38:35Z"
+      "last_success_at": "2026-11-26T20:10:44Z",
+      "latest_published_at": "2026-11-26T19:27:45Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
+      "last_success_at": "2026-11-26T20:10:44Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
+      "last_success_at": "2026-11-26T20:10:44Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
+      "last_success_at": "2026-11-26T20:10:44Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
+      "last_success_at": "2026-11-26T20:10:44Z",
       "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-26T10:52:11Z",
+      "last_success_at": "2026-11-26T20:10:44Z",
       "latest_published_at": "2026-11-25T14:00:00Z"
     }
   },
   "items": [
+    {
+      "title": "Turkey Central Bank Suspends Repo Auctions as Reserves Shrink",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
+      "published_at": "2026-11-26T19:41:34Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Turkey’s central bank suspended its one-week repo auctions, a move that could raise banks’ funding costs as policymakers contend with a sharp decline in foreign-exchange reserves.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "土耳其央行暂停了一周的回购拍卖,这可能会增加银行资金成本, 由于政策制定者对外汇储备大幅下降而感到不安. Η Τούρκη央行停止了一周期期期期货币回收购买入期期期的回购买期货投投资拍卖, A central bank土耳其央行的举动可能提高了银行资金费用资金成本. Η Τουρκ",
+      "translation_checked": true
+    },
+    {
+      "title": "Mexico Central Bank Lifts Growth Outlook in Boost to Sheinbaum",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/mexico-central-bank-lifts-growth-outlook-in-boost-to-sheinbaum",
+      "published_at": "2026-11-26T18:54:15Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Mexico’s central bank raised its forecast for gross domestic product growth this year to 1.9% from 1.5% after exports and investment boosted Latin America’s second-largest economy.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Milei’s Overhaul of Argentina’s Central Bank Wins Final Approval in Congress",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/milei-s-overhaul-of-argentina-s-central-bank-wins-final-approval-in-congress",
+      "published_at": "2026-11-26T18:30:46Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "President Javier Milei’s overhauled charter for Argentina’s central bank won final congressional approval on Thursday, a symbolic victory for the libertarian economist who campaigned on abolishing the monetary authority.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Alberta Raises Projected Surplus to $6 Billion as Oil Surges",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/alberta-raises-projected-surplus-to-6-billion-as-oil-surges",
+      "published_at": "2026-11-26T18:29:39Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Alberta raised its projected surplus to C$8.5 billion ($6 billion) for the current fiscal year as the lingering war in Iran keeps oil prices elevated.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Kazakhstan Encouraged Local Banks to Finance Deal for Gold Miner",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner",
+      "published_at": "2026-11-26T17:35:40Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Kazakhstan has encouraged domestic banks to lend more than $1 billion to construction tycoon Shakhmurat Mutalip and revised financing regulations to help him buy gold miner AK Altynalmas JSC, according to people familiar with the matter.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trans-Oil Warns of Going-Concern Risk Pending Debt Waiver",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/trans-oil-warns-of-going-concern-risk-pending-debt-waiver",
+      "published_at": "2026-11-26T16:39:29Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Trans-Oil Group has yet to secure a waiver after breaching financial covenants on a key export facility, adding to liquidity pressure at the agricultural commodities firm.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "facts_zh": "由于违反了对主要出口设施的金融协议,因此Trans-Oil Group尚未获得豁免,从而增加了农产品公司的流动性压力. V. F. F.F. L.F.A. Il-F.F.F., F., L-F. V.F.C. Il‐F. F. Trans-F. F. Trans-Oil. Trans-Trans-O",
+      "translation_checked": true
+    },
+    {
+      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo",
+      "published_at": "2026-11-26T16:21:19Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Congo Gold Trader Plans Two Refineries with 68-Ton Capacity",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/congo-gold-trader-plans-two-refineries-with-68-ton-capacity",
+      "published_at": "2026-11-26T16:15:54Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Democratic Republic of Congo’s state gold trader plans to build two refineries with capacity for 68 tons as the country looks to curb smuggling and profit more from its reserves of the precious metal.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
+      "published_at": "2026-11-26T15:17:18Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trump Calls GDP Numbers ‘Fake,’ Demands Probe After Revision",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-says-revised-gdp-numbers-fake-calls-for-investigation",
+      "published_at": "2026-11-26T15:03:35Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "President Donald Trump accused his own administration of a “purposeful” move to under-report US economic growth, seizing on a routine data revision to underpin an allegation of election interference with no evidence.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "De Cos Gets Leaders’ Nod for ECB Presidency in Post-Lagarde Era",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/de-cos-is-poised-to-take-ecb-presidency-in-era-after-lagarde",
+      "published_at": "2026-11-26T13:38:12Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Pablo Hernandez de Cos will become European Central Bank’s next president, directing the region’s fight against inflation and possible bond turmoil.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "ECB Officials Saw More Tightening With Inflation Outlook Worse",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/ecb-officials-saw-more-tightening-with-inflation-outlook-worse",
+      "published_at": "2026-11-26T13:09:36Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "European Central Bank officials meeting last month envisaged tightening monetary policy further in the future after the outlook for inflation worsened.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Dutch to Back EU Consensus for ECB Jobs, Opening Door to De Cos",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/dutch-to-back-eu-consensus-for-ecb-jobs-opening-door-to-de-cos",
+      "published_at": "2026-11-26T13:06:26Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "The Netherlands is ready to support the consensus of European leaders on three vacancies for the European Central Bank’s Executive Board, according to people familiar with the matter.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+      "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o",
+      "published_at": "2026-11-26T12:16:06Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "Officials say the man confessed to travelling at speed and clipping the fuel truck as he was overtaking traffic.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Brazil Inflation Undershoots Forecasts in ‘Positive’ Print",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/brazil-consumer-prices-rise-less-than-forecast-by-all-analysts",
+      "published_at": "2026-11-26T12:15:36Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Brazil’s consumer prices rose much less than forecast earlier this month, as policymakers face fiscal and currency risks following President Luiz Inácio Lula da Silva’s reelection.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trump’s Latest Tariffs Undercut the ‘China Plus One’ Idea",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trump-s-latest-tariffs-undercut-the-china-plus-one-idea",
+      "published_at": "2026-11-26T12:00:01Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "The new US trade offensive may hit businesses that tried to diversify.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trading partners respond to Trump tariff plans",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trading-partners-respond-to-trump-tariff-plans",
+      "published_at": "2026-11-26T12:00:01Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "China refrains from retaliating yet, while Singapore and Japan seek talks",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "All of Canada’s Big Six Banks Now See December Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/all-of-canada-s-big-six-banks-now-see-december-rate-hike",
+      "published_at": "2026-11-26T11:00:00Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Canada’s six largest lenders all expect the central bank to hike its key interest rate in December, even with two major economic releases still to come next week.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trump’s Import Tariffs Leave US Consumers Little to Celebrate This Thanksgiving",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trump-s-import-tariffs-leave-us-consumers-little-to-celebrate-this-thanksgiving",
+      "published_at": "2026-11-26T10:59:09Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "American consumers have little to celebrate as living costs spike.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
     {
       "title": "Portugal Rejects Opposition Tax Cuts to Preserve Budget Surplus",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/portugal-rejects-opposition-tax-cuts-to-preserve-budget-surplus",
@@ -352,14 +715,14 @@
       "translation_checked": true
     },
     {
-      "title": "Copper Rebounds From Lowest This Year as Volatility Hits Metals",
+      "title": "Copper Rebounds as Tech Rally Lifts Battered Industrial Metals",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
       "published_at": "2026-11-26T02:01:10Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Copper jumped more than 3% from an 11-month low, tracking gains in tech equities even as doubts lingered over the durability of the AI boom and related industrial metals demand.",
+      "facts": "Copper recovered from an 11-month low on Thursday alongside gains in other commodities and technology stocks, as investors returned to riskier assets following days of sharp losses.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -368,7 +731,7 @@
         "watch": "主要指数、成交量、信用利差",
         "basis": "待确认"
       },
-      "facts_zh": "铜从11个月的低点上了3%, 随着AI勃发展和相关工业金属需求的持久性问题持续存在疑虑, 技术股的增长. El cobre Το χαλκάνς Το χάλυβα Το μέταμπερ Το αλμπερ ανέβηκε περισσότερο από 3% από το χαμηλότερη από το χαμηλό από το 11 μήνες, Η ελάχιστο, ς κέρδος, ρύθον κ",
+      "facts_zh": "黄铜周四与其他商品和技术股票的收益相结合, 由于经历了几天的大幅损失, 投资者回到了更具风险的资产. El cobre Το χαλκάνης恢复了11个月的低点. Το χλκάνδ. Η χλκανδ. El χαλκανδάκινο ανακάμπηκευτεί από 11个月的最低水平. Ο χαλκάλκινο αναστήθηκε",
       "translation_checked": true
     },
     {
@@ -411,14 +774,14 @@
       "translation_checked": true
     },
     {
-      "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
+      "title": "Gold Hovers Near 15-Month Low as Traders Eye Fed Path, AI Stocks",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes",
       "published_at": "2026-11-26T00:18:09Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "macro",
-      "facts": "Gold edged lower, after rising on Wednesday, as inflation data reinforced bets the Federal Reserve will hike interest rates further.",
+      "facts": "Gold hovered near the lowest level in about 15 months on Thursday, as investors weighed the prospect of further Federal Reserve rate hikes against a relief rally in wider markets amid a comeback in technology shares.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -456,7 +819,7 @@
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Oil swung as continued hostilities in the Middle East threatened to disrupt the recovery in the region’s crude exports.",
+      "facts": "Oil rose after fluctuating in thin trading during the US holiday as an attack on Saudi refinery threatened to undermine a recovery in the region’s crude exports.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -465,6 +828,7 @@
         "watch": "主要指数、成交量、信用利差",
         "basis": "待确认"
       },
+      "facts_zh": "由于沙特炼油厂遭到袭击, 石油出口回升的危险, அமெரிக்கா的假期期间, அமெரிக்க薄型贸易波动后, எண்ணெய்油价格上升. 油油油油原油出口回 இந்த பிராந்தியத்தின்原油出出口回复苏 இந்த பகுதியில்原油原料出口的复苏. இந்தத் தா 恢复. சவூதி அரேபியாவின் ச",
       "translation_checked": true
     },
     {
@@ -494,7 +858,7 @@
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Stocks rose as investors in Europe and Asia tracked a comeback in technology shares on Wall Street after days of sharp swings.",
+      "facts": "Stocks rose as investors in Europe and Asia took their cue from a comeback in technology shares on Wall Street after days of sharp swings.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "bullish",
@@ -503,7 +867,7 @@
         "watch": "对应指数、板块广度与收盘表现",
         "basis": "已报道走势"
       },
-      "facts_zh": "欧洲和亚洲投资者在几天的急剧波动后, 股票上. Οι μετοχές Οι股票上升了. Οι επενδυτές στην Ευρώπη και την Ασία, Οι τιμές αυξήθηκαν, Η Wall Street, Τα μετοχές αυξήθηκε, καθώς οι επενδυτικοί επενδυτικές τιμές της αγοράς αυξήθησαν. Η Ελλάδαφοις και η Ευρώπη και η Ασία, ιχθυμ",
+      "facts_zh": "欧洲和亚洲的投资者在几天的急剧波动后, 股票上. Οι μετοχές Οι股票上升了. Οι επενδυτές στην Ευρώπη και την Ασία, Οι τιμές αυξήθηκαν, ΗΠΑ, Τα μετοχές αυξήθηκε, καθώς οι επενδυτικοί επενδυτείς στην Ευρώπη και η Ασία, 起了. Dopo ημέρες από τις μεγάλες μετακυμήσεις,",
       "translation_checked": true
     },
     {
@@ -1554,25 +1918,6 @@
         "basis": "待确认"
       },
       "facts_zh": "乌克兰公布了利比亚附近俄方船只遇袭的视频。泽连斯基称，一艘俄方军舰沉没，另有一艘货船遭击中。"
-    },
-    {
-      "title": "Oil flows through Middle East chokepoints increased in the third quarter",
-      "url": "https://www.eia.gov/todayinenergy/detail.php",
-      "published_at": "2026-11-19T14:00:00Z",
-      "feed": "eia-energy",
-      "source": "U.S. Energy Information Administration",
-      "group": "eia",
-      "category": "markets",
-      "facts": "Collective oil shipments through key chokepoints around the Middle East increased by 19% in the third quarter of 2026 (3Q26), according to our recently published Global Energy Security Data.",
-      "facts_basis": "publisher",
-      "impact": {
-        "direction": "watch",
-        "market": "相关市场",
-        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
-        "watch": "主要指数、成交量、信用利差",
-        "basis": "待确认"
-      },
-      "facts_zh": "美国能源信息署称，2026 年第三季度通过中东主要航运咽喉的石油运输总量增加 19%，数据来自其《全球能源安全数据》。"
     }
   ]
 }
