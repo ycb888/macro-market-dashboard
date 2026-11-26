@@ -1,68 +1,356 @@
 {
-  "collected_at": "2026-11-26T02:12:41Z",
+  "collected_at": "2026-11-26T10:52:11Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
-      "latest_published_at": "2026-11-26T02:01:10Z"
+      "last_success_at": "2026-11-26T10:52:11Z",
+      "latest_published_at": "2026-11-26T09:55:38Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
-      "latest_published_at": "2026-11-26T00:50:53Z"
+      "last_success_at": "2026-11-26T10:52:11Z",
+      "latest_published_at": "2026-11-26T10:33:26Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
-      "latest_published_at": "2026-11-26T01:17:56Z"
+      "last_success_at": "2026-11-26T10:52:11Z",
+      "latest_published_at": "2026-11-26T10:36:36Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
-      "latest_published_at": "2026-11-26T01:20:14Z"
+      "last_success_at": "2026-11-26T10:52:11Z",
+      "latest_published_at": "2026-11-26T10:15:47Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
-      "latest_published_at": "2026-11-26T01:22:55Z"
+      "last_success_at": "2026-11-26T10:52:11Z",
+      "latest_published_at": "2026-11-26T10:38:35Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
+      "last_success_at": "2026-11-26T10:52:11Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
+      "last_success_at": "2026-11-26T10:52:11Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
+      "last_success_at": "2026-11-26T10:52:11Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
+      "last_success_at": "2026-11-26T10:52:11Z",
       "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-26T02:12:41Z",
+      "last_success_at": "2026-11-26T10:52:11Z",
       "latest_published_at": "2026-11-25T14:00:00Z"
     }
   },
   "items": [
+    {
+      "title": "Portugal Rejects Opposition Tax Cuts to Preserve Budget Surplus",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/portugal-rejects-opposition-tax-cuts-to-preserve-budget-surplus",
+      "published_at": "2026-11-26T10:22:18Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Portugal’s minority government said it won’t enact tax cuts forced on it by opposition parties as it seeks to deliver a fifth straight budget surplus next year.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "葡萄牙少数民族政府表示,它不会通过反对派强制削减税收, 由于它希望在明年实现连续第五次预算顺利. Le Monde. Η Πορτογαλία Η κυβέρνηση της Πορτογαλλίας. Το Κοινοβούλιο Η Ο Πορτογαλίας. El Parlamento, Η πορτογαλία, η Πορτογαλική κυβέρνηση, η κυβέρνηση, που εκφράζει την ε",
+      "translation_checked": true
+    },
+    {
+      "title": "BOJ’s Paper Gains From ETFs Surge as Takaichi Seeks Funding",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/boj-s-paper-gains-from-etfs-surge-as-takaichi-seeks-funding",
+      "published_at": "2026-11-26T09:07:17Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "The market value of the Bank of Japan’s exchange-traded fund holdings topped ¥100 trillion ($628 billion) for the first time, highlighting the scale of an asset pile whose profits Prime Minister Sanae Takaichi wants to tap to help fund her policy agenda.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Zambia Inflation Edges Up on Eve of Interest-Rate Verdict",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/zambia-inflation-edges-up-on-eve-of-interest-rate-verdict",
+      "published_at": "2026-11-26T08:31:19Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Zambia’s annual inflation rate rose for a second consecutive month in November as a weaker kwacha made imports costlier.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Rwanda Hikes Key Rate for Fourth Time in Row to Cool Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/rwanda-hikes-key-rate-for-fourth-time-in-row-to-cool-inflation",
+      "published_at": "2026-11-26T08:26:30Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "The National Bank of Rwanda raised its key interest rate to its highest level since at least 2009 to contain inflation.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Trump’s Tariffs Blunt Appeal of Moving Production Out of China",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-riles-trade-partners-with-tariffs-that-undercut-china-1",
+      "published_at": "2026-11-26T08:05:24Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "President Donald Trump’s latest tariff push risks undercutting one of the signature shifts in global manufacturing since the US-China trade war began: the movement of supply chains out of China.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "EU Hopeful Touts Higher Wages, Tax Cuts to Halt Brain Drain",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/higher-wages-lower-tax-pledged-to-stem-montenegrins-exit-to-eu",
+      "published_at": "2026-11-26T07:48:05Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Montenegro is planning tax cuts among a raft of measures designed to keep citizens from leaving for the European Union — even after its planned accession to the bloc in 2028.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro",
+      "published_at": "2026-11-26T07:31:24Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
+      "published_at": "2026-11-26T07:10:15Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Some Indian lenders have asked the central bank to carry out foreign-exchange swaps to help ease rising hedging costs as banks deal with an influx of dollars, according to people familiar with the matter.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "US Partners Respond to Tariffs With Anger, Protest and Diplomacy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/us-partners-respond-to-tariffs-with-anger-protest-and-diplomacy",
+      "published_at": "2026-11-26T07:02:03Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "Major US trading partners responded with disappointment and protests while holding out the prospect of negotiations after the Trump administration rolled out a fresh round of tariffs on goods from China, the European Union and a dozen other economies.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Australia Firms See Inflation Holding Over 4% for Next 12 Months",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-firms-see-inflation-holding-over-4-for-next-12-months",
+      "published_at": "2026-11-26T04:30:00Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Australian businesses expect inflation will remain well above the top of the Reserve Bank’s 2-3% target band for the next 12 months, even after policymakers delivered five interest-rate hikes this year to try to rein in consumer prices.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Japan Protests New US Tariff Rate, Allegation of Excess Capacity",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/japan-protests-new-us-tariff-rate-allegation-of-excess-capacity",
+      "published_at": "2026-11-26T04:19:44Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "Japan has protested to the US over its plans to impose a 15% levy on imports from the Asian country to address concerns over excess manufacturing capacity, a government spokesman said, even though the new level is in line with a previous tariff agreement.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "facts_zh": "据政府发言人称,日本对美国的计划,即将对亚洲国家进口征收15%的征收税, 为了解决过剩的制造能力的担忧, அரசாங்கம்表示, இந்த新的水平与之前的关税协议相符. இந்த புதிய水平符合之前的关费协议. ஜப்பானின் ஜப்பான், ஜାପான், Japón, ஜாப். ஒரு அரசாங்கத்தின் செய்தித் தொடர்பாளர், ஒரு அரசு செய்தித் தொடர்பிரிட்டவர்",
+      "translation_checked": true
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+      "published_at": "2026-11-26T04:10:58Z",
+      "feed": "bbc-business",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "geopolitics",
+      "facts": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "facts_zh": "美国正准备公布新的关税计划。BBC 报道称，若新关税落地，可能波及中国和欧盟等主要贸易伙伴。"
+    },
+    {
+      "title": "China Vows to Defend Interests as Trump Threatens 40% Tariff",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/trump-s-china-tariffs-raise-threat-of-new-test-for-trade-truce",
+      "published_at": "2026-11-26T03:45:09Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "China vowed to defend its interests after the US unveiled new tariffs on Chinese goods and warned the rate could double if trade talks collapse, injecting fresh tension ahead of a planned meeting between Donald Trump and Xi Jinping.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "facts_zh": "美国宣布对中国商品征收新的关税后,中国承诺捍卫其利益,并警告说,如果贸易谈判崩, 关税率将翻倍, டொனால்ட் 特朗普和习近平在预定会前, டிரம்ப்与习近平之间新鲜紧张的新紧张. சீனா, சீனா சீனா. சீனாவின் வர்த்தக பேச்சுவார்த்தைகள் வீழ்ச்சிகள் வீழ்ச்சியடைந்தால், அமெரிக்கா, சீன பொருட்கள்",
+      "translation_checked": true
+    },
+    {
+      "title": "Dry Bulk Shipping Rates Climb as Capesize Vessel Supply Tightens",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/dry-bulk-shipping-rates-climb-as-capesize-vessel-supply-tightens",
+      "published_at": "2026-11-26T03:39:18Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "A key measure of bulk shipping rates jumped this week as exporters competed for a shrinking pool of vessels during a seasonally tighter period.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Hawkish Bank of Japan Member Seeks Quick Rate Hikes on Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
+      "published_at": "2026-11-26T02:28:30Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "A hawkish member of the Bank of Japan’s policy board called for early action to keep raising the BOJ’s benchmark rate, supporting market expectations for a rate hike next month.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
     {
       "title": "Copper Rebounds From Lowest This Year as Volatility Hits Metals",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
@@ -82,25 +370,6 @@
       },
       "facts_zh": "铜从11个月的低点上了3%, 随着AI勃发展和相关工业金属需求的持久性问题持续存在疑虑, 技术股的增长. El cobre Το χαλκάνς Το χάλυβα Το μέταμπερ Το αλμπερ ανέβηκε περισσότερο από 3% από το χαμηλότερη από το χαμηλό από το 11 μήνες, Η ελάχιστο, ς κέρδος, ρύθον κ",
       "translation_checked": true
-    },
-    {
-      "title": "US announces new tariffs on host of countries including China",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
-      "published_at": "2026-11-26T01:20:14Z",
-      "feed": "bbc-business",
-      "source": "BBC News",
-      "group": "bbc",
-      "category": "geopolitics",
-      "facts": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "facts_basis": "publisher",
-      "impact": {
-        "direction": "watch",
-        "market": "受影响进出口板块",
-        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
-        "watch": "税率、覆盖范围、生效时间及豁免条款",
-        "basis": "待确认"
-      },
-      "facts_zh": "美国正准备公布新的关税计划。BBC 报道称，若新关税落地，可能波及中国和欧盟等主要贸易伙伴。"
     },
     {
       "title": "Brazil Lashes Out at New US Tariffs, Saying It Will ‘Not Yield’",
@@ -187,7 +456,7 @@
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Oil held a two-day gain as continued hostilities in the Middle East threatened to disrupt the recovery in the region’s crude exports.",
+      "facts": "Oil swung as continued hostilities in the Middle East threatened to disrupt the recovery in the region’s crude exports.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -218,22 +487,23 @@
       "translation_checked": true
     },
     {
-      "title": "Asian Stocks Rise as Tech Gains in Taiwan, Korea: Markets Wrap",
+      "title": "Global Stocks Climb as AI Trade Mounts a Comeback: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
       "published_at": "2026-11-25T22:10:42Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Asian stocks rose as a late recovery on Wall Street brought some stability to markets, following a flight to Treasuries driven by doubts over the artificial intelligence trade.",
+      "facts": "Stocks rose as investors in Europe and Asia tracked a comeback in technology shares on Wall Street after days of sharp swings.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "bullish",
-        "market": "亚太股市",
+        "market": "全球股市",
         "summary": "报道所涉股市出现上涨。",
         "watch": "对应指数、板块广度与收盘表现",
         "basis": "已报道走势"
       },
+      "facts_zh": "欧洲和亚洲投资者在几天的急剧波动后, 股票上. Οι μετοχές Οι股票上升了. Οι επενδυτές στην Ευρώπη και την Ασία, Οι τιμές αυξήθηκαν, Η Wall Street, Τα μετοχές αυξήθηκε, καθώς οι επενδυτικοί επενδυτικές τιμές της αγοράς αυξήθησαν. Η Ελλάδαφοις και η Ευρώπη και η Ασία, ιχθυμ",
       "translation_checked": true
     },
     {
