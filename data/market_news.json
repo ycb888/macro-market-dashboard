@@ -1,68 +1,183 @@
 {
-  "collected_at": "2026-11-27T12:15:28Z",
+  "collected_at": "2026-11-27T21:21:17Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
-      "latest_published_at": "2026-11-27T12:00:28Z"
+      "last_success_at": "2026-11-27T21:21:17Z",
+      "latest_published_at": "2026-11-27T21:05:05Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
-      "latest_published_at": "2026-11-27T12:00:01Z"
+      "last_success_at": "2026-11-27T21:21:17Z",
+      "latest_published_at": "2026-11-27T21:17:53Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
-      "latest_published_at": "2026-11-27T12:00:00Z"
+      "last_success_at": "2026-11-27T21:21:17Z",
+      "latest_published_at": "2026-11-27T19:50:52Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
-      "latest_published_at": "2026-11-27T10:10:36Z"
+      "last_success_at": "2026-11-27T21:21:17Z",
+      "latest_published_at": "2026-11-27T16:05:32Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
-      "latest_published_at": "2026-11-27T11:44:40Z"
+      "last_success_at": "2026-11-27T21:21:17Z",
+      "latest_published_at": "2026-11-27T20:57:04Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
+      "last_success_at": "2026-11-27T21:21:17Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
+      "last_success_at": "2026-11-27T21:21:17Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
+      "last_success_at": "2026-11-27T21:21:17Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
+      "last_success_at": "2026-11-27T21:21:17Z",
       "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-27T12:15:28Z",
-      "latest_published_at": "2026-11-25T14:00:00Z"
+      "last_success_at": "2026-11-27T21:21:17Z",
+      "latest_published_at": "2026-11-27T14:00:00Z"
     }
   },
   "items": [
+    {
+      "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+      "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo",
+      "published_at": "2026-11-27T20:34:45Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "There are fears of a major oil spillage off Ibiza but the ship's fuel tanks are so far intact.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "facts_zh": "担心伊比萨海岸将发生重大石油泄漏, Αλλά船只的燃料箱目前还完整. Existes. Υπάρχουν φόβοι ότι υπάρχει ανησυχίες για μια μεγάλης πετρελαιορυσίς πετρελαϊς διαρροή πετρελαίου. Υπάρχει φόβος μεγάλο πετρελικής βιζας βιζά χηρυσίνας. Αιμπιζά, αλλά τα δεξίς ερ",
+      "translation_checked": true
+    },
+    {
+      "title": "France Joins the Dutch in Opposing Proposed US Export Curbs",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-joins-the-dutch-in-opposing-proposed-us-export-curbs",
+      "published_at": "2026-11-27T17:06:00Z",
+      "feed": "bloomberg-politics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "France said it’s backing the Dutch over concerns that a proposed US law will force European companies such as ASML Holding NV to comply with restrictions on technology exports to China, and is considering possible measures if the law is adopted.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
+      "published_at": "2026-11-27T16:49:08Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Anthropic PBC shares climbed above their $83 initial public offering price as the artificial intelligence lab finished its first calendar week on the Nasdaq after its record-setting debut on a positive note.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "bullish",
+        "market": "报道所涉股市",
+        "summary": "报道所涉股市出现上涨。",
+        "watch": "对应指数、板块广度与收盘表现",
+        "basis": "已报道走势"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/euro-zone-inflation-is-seen-weaker-for-first-time-in-five-months",
+      "published_at": "2026-11-27T16:18:45Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Euro-zone inflation is likely to have slowed for the first time in five months, but not enough to derail another interest-rate increase.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "ECB’s Nagel Signals Need for Another Rate Hike in December",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/ecb-s-nagel-signals-need-for-another-rate-hike-in-december",
+      "published_at": "2026-11-27T13:31:56Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Stubborn inflation means the European Central Bank will probably have to raise interest rates again next month, according to Governing Council member Joachim Nagel.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "ECB’s Two Rate Hikes to Date Aren’t Enough, Dolenc Tells Delo",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/ecb-s-two-rate-hikes-to-date-aren-t-enough-dolenc-tells-delo",
+      "published_at": "2026-11-27T12:38:06Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "The European Central Bank’s interest-rate increases this year probably aren’t sufficient to bring inflation back to the 2% target, Governing Council member Primoz Dolenc said.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
     {
       "title": "Polish President Blocks Pre-Election Tax Cut in New Blow to Tusk",
       "url": "https://www.bloomberg.com/news/articles/2026-11-27/polish-president-blocks-pre-election-tax-cut-in-new-blow-to-tusk",
@@ -198,6 +313,25 @@
       "translation_checked": true
     },
     {
+      "title": "US Stocks Rebound as Traders Pile Into Battered Tech Shares",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/us-stocks-set-to-bounce-as-risk-appetite-returns-after-holiday",
+      "published_at": "2026-11-27T07:56:20Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "US stocks rallied Friday, capping a week of whiplash as dip buyers scooped up some beaten down technology shares despite lingering worries about the sustainability of the artificial-intelligence boom.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "bullish",
+        "market": "美股",
+        "summary": "报道所涉股市出现上涨。",
+        "watch": "对应指数、板块广度与收盘表现",
+        "basis": "已报道走势"
+      },
+      "translation_checked": true
+    },
+    {
       "title": "Inflation Slows Much More Than Expected in France and Spain",
       "url": "https://www.bloomberg.com/news/articles/2026-11-27/french-inflation-slows-much-more-than-expected-as-energy-eases",
       "published_at": "2026-11-27T07:45:00Z",
@@ -276,7 +410,7 @@
       "translation_checked": true
     },
     {
-      "title": "China Drives Biggest Stock Gain Since 2024 With Rare Midday Vow",
+      "title": "China Spurs Biggest Stock Gain Since 2024 on Rare Midday Vow",
       "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
       "published_at": "2026-11-27T05:00:23Z",
       "feed": "bloomberg-markets",
@@ -333,14 +467,14 @@
       "translation_checked": true
     },
     {
-      "title": "Treasuries Dip on Weaker Demand for Havens as Stocks Rebound",
+      "title": "Treasuries Drop as Stock Rise Saps Demand for Haven Bonds",
       "url": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
       "published_at": "2026-11-27T02:43:08Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Treasuries fell as the market reopened after the Thanksgiving holiday, with gains in equities damping demand for haven assets.",
+      "facts": "US Treasuries fell as the market reopened after the Thanksgiving holiday, with gains in equities damping demand for haven assets.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "bullish",
@@ -378,7 +512,7 @@
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Gold rose as a rally in stocks helped the precious metal recover from a rout that sent prices to a 15-month low.",
+      "facts": "Gold rose as a rally in stocks helped the precious metal recover from a rout that sent bullion prices to a 15-month low.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -387,7 +521,7 @@
         "watch": "主要指数、成交量、信用利差",
         "basis": "待确认"
       },
-      "facts_zh": "黄金上,随着股票的升, 宝贵金属从跌倒中恢复, Η τιμή下降至15个月的低点. Η Η. Ο. Το χρυσός Η αύξηση της τιμής Η ρύθμιση της τιμής της τιμής του χρυσού, Η αναβάθμιση των αποθηκευμάτων βοήθησε την ανάκαμψη του πολύτιμου μετάλλων μετάλλων μεταλλων να ανακάμψει την πτώση.",
+      "facts_zh": "黄金升,随着股票的升, 宝贵金属从跌倒中恢复, Το金币价格升至15个月的低点. Η ρύθμιση Η Η τιμή του χρυσού Η αύξηση της τιμής του χρυσός, Η ανακύκλυτική αύξηση των αποτίμησης των μετοχων βοήθησε την ανάκαμψη του πολύτιμου μετάλλου μεταλλου να ανακάμματος να ανα",
       "translation_checked": true
     },
     {
@@ -436,7 +570,7 @@
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Oil rose for a fourth day, heading for its first weekly gain this month, as escalating attacks on energy infrastructure and tankers in the Middle East raised concerns about supply.",
+      "facts": "Oil swung in thin trading as increasing attacks on energy infrastructure and tankers in the Middle East heightened supply fears.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -448,14 +582,14 @@
       "translation_checked": true
     },
     {
-      "title": "In Gilt Market ‘Surprise,’ ICE Backs Away From Futures Changes",
+      "title": "ICE Backs Away From Gilt Futures Change in Surprise to Market",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/ice-maintains-flagship-gilt-futures-design-after-market-feedback",
       "published_at": "2026-11-26T22:16:55Z",
       "feed": "bloomberg-economics",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Global exchange operator Intercontinental Exchange Inc. has decided not to go ahead with planned technical changes to its UK bond futures, disappointing some traders who hoped the adjustments would reduce price distortions and make the contracts a more reliable hedging tool.",
+      "facts": "Global exchange operator Intercontinental Exchange Inc. has backed away from changes to its UK bond futures it floated last week, surprising traders and disappointing those who had hoped the adjustments would reduce price distortions.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -486,14 +620,14 @@
       "translation_checked": true
     },
     {
-      "title": "US Futures Rally as Tech Rebound Gains Momentum: Markets Wrap",
+      "title": "S&P 500 Has Best Week Since April 2025 on AI Rally: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
       "published_at": "2026-11-26T21:59:57Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "US stocks are set to rally after Thanksgiving as a rebound in the artificial intelligence trade gathers pace, with waning demand for havens sending Treasuries lower.",
+      "facts": "Wall Street wrapped up a chaotic week with stocks climbing as a rebound in the artificial-intelligence trade gathered pace, reducing demand for Treasuries and haven currencies.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -502,7 +636,7 @@
         "watch": "主要指数、成交量、信用利差",
         "basis": "待确认"
       },
-      "facts_zh": "美国股票将在感恩节之后起, 人工智能交易的反弹正在加快,",
+      "facts_zh": "华尔街结束了一周混乱,股票升,人工智能交易反弹加快, O需求量减少了. Η Wall Street Η 华尔斯特里特 Η ζαχαοτική εβδομάδα ολοκληρώθηκε με τις με τις μετοχές να ανεβαίνει, Οι μετοχές της μετοχών, καθώς η ανάκαμψιση του εμπορίου της τεχνητής νοημοφυΐνης, Η αγορά αυξήθηκε, Ο ρυθμός της",
       "translation_checked": true
     },
     {
