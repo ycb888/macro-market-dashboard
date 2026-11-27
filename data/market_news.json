@@ -1,77 +1,96 @@
 {
-  "collected_at": "2026-11-26T20:10:44Z",
+  "collected_at": "2026-11-27T02:50:45Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
-      "latest_published_at": "2026-11-26T20:00:15Z"
+      "last_success_at": "2026-11-27T02:50:45Z",
+      "latest_published_at": "2026-11-27T02:30:22Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
-      "latest_published_at": "2026-11-26T19:41:34Z"
+      "last_success_at": "2026-11-27T02:50:45Z",
+      "latest_published_at": "2026-11-26T23:36:40Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
-      "latest_published_at": "2026-11-26T18:29:39Z"
+      "last_success_at": "2026-11-27T02:50:45Z",
+      "latest_published_at": "2026-11-27T01:00:00Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
-      "latest_published_at": "2026-11-26T19:55:58Z"
+      "last_success_at": "2026-11-27T02:50:45Z",
+      "latest_published_at": "2026-11-27T00:54:45Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
-      "latest_published_at": "2026-11-26T19:27:45Z"
+      "last_success_at": "2026-11-27T02:50:45Z",
+      "latest_published_at": "2026-11-27T02:22:37Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
+      "last_success_at": "2026-11-27T02:50:45Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
+      "last_success_at": "2026-11-27T02:50:45Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
+      "last_success_at": "2026-11-27T02:50:45Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
+      "last_success_at": "2026-11-27T02:50:45Z",
       "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-26T20:10:44Z",
+      "last_success_at": "2026-11-27T02:50:45Z",
       "latest_published_at": "2026-11-25T14:00:00Z"
     }
   },
   "items": [
     {
-      "title": "Turkey Central Bank Suspends Repo Auctions as Reserves Shrink",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
-      "published_at": "2026-11-26T19:41:34Z",
-      "feed": "bloomberg-economics",
+      "title": "South Korea Reportedly Mulls Expanding Stock Stabilization Fund",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund",
+      "published_at": "2026-11-27T01:22:32Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "South Korea is considering expanding its 10.76 trillion won ($8 billion) stock market stabilization fund as authorities prepare to intervene amid heightened volatility, Maeil Business Newspaper reported.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Gold Rises as Rebound in Tech Stocks Offsets Rate-Hike Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-steadies-as-fed-rate-path-and-ai-stocks-frame-volatile-week",
+      "published_at": "2026-11-26T23:53:35Z",
+      "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "macro",
-      "facts": "Turkey’s central bank suspended its one-week repo auctions, a move that could raise banks’ funding costs as policymakers contend with a sharp decline in foreign-exchange reserves.",
+      "facts": "Gold rose as a tentative recovery in technology stocks and a weaker US dollar offset the prospect of interest-rate hikes by the Federal Reserve.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
@@ -80,7 +99,140 @@
         "watch": "实际值与预期、2 年期美债收益率",
         "basis": "需核对预期"
       },
-      "facts_zh": "土耳其央行暂停了一周的回购拍卖,这可能会增加银行资金成本, 由于政策制定者对外汇储备大幅下降而感到不安. Η Τούρκη央行停止了一周期期期期货币回收购买入期期期的回购买期货投投资拍卖, A central bank土耳其央行的举动可能提高了银行资金费用资金成本. Η Τουρκ",
+      "translation_checked": true
+    },
+    {
+      "title": "Japan Bank Shares Risk Further Unwind as Funding Cost Bites",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/japan-bank-shares-risk-further-unwind-as-funding-cost-bites",
+      "published_at": "2026-11-26T23:41:36Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Japanese banking shares face increasing risk of an unwind as higher interest rates provide less of a boost to profits amid intensifying competition across the sector.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
+      "published_at": "2026-11-26T23:36:40Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Inflation in Japan’s capital city accelerated to the fastest pace this year, backing the case for a Bank of Japan rate increase next month as authorities focus on keeping price growth around their 2% target.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Latest Oil Market News and Analysis for Nov. 27",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
+      "published_at": "2026-11-26T23:05:38Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Oil was on track for the first weekly gain this month as attacks on energy infrastructure and tankers in the Middle East raised concerns escalating hostilities could disrupt exports.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "ICE Maintains Flagship Gilt Futures Design After Market Feedback",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/ice-maintains-flagship-gilt-futures-design-after-market-feedback",
+      "published_at": "2026-11-26T22:16:55Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Intercontinental Exchange Inc. is maintaining the design of its flagship futures contract for UK government bonds following market feedback, in a move that may surprise investors who had been positioning for a change.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
+      "published_at": "2026-11-26T22:01:22Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Stocks Rise With Nasdaq Futures, Treasuries Fall: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+      "published_at": "2026-11-26T21:59:57Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "Asian stocks rose for a second day along with US equity-index futures, extending a tentative recovery after weeks of volatility in the artificial intelligence trade. Treasuries declined as cash trading resumed following the Thanksgiving holiday.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "bullish",
+        "market": "纳斯达克",
+        "summary": "报道所涉股市出现上涨。",
+        "watch": "对应指数、板块广度与收盘表现",
+        "basis": "已报道走势"
+      },
+      "facts_zh": "亚洲股票连续第二天上,随着美国股票指数期货,在人工智能交易上出现了数周的波动后,暂时恢复. انخفض了.",
+      "translation_checked": true
+    },
+    {
+      "title": "Turkey Central Bank Sidelines Policy Rate as Reserves Shrink",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-central-bank-suspends-repo-auctions-as-reserves-shrink",
+      "published_at": "2026-11-26T19:41:34Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Turkey’s central bank suspended its one-week repo auctions, a move that could raise banks’ funding costs as policymakers respond to a sharp decline in foreign-exchange reserves.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
       "translation_checked": true
     },
     {
@@ -207,25 +359,6 @@
       "group": "bloomberg",
       "category": "markets",
       "facts": "Democratic Republic of Congo’s state gold trader plans to build two refineries with capacity for 68 tons as the country looks to curb smuggling and profit more from its reserves of the precious metal.",
-      "facts_basis": "publisher",
-      "impact": {
-        "direction": "watch",
-        "market": "相关市场",
-        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
-        "watch": "主要指数、成交量、信用利差",
-        "basis": "待确认"
-      },
-      "translation_checked": true
-    },
-    {
-      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do",
-      "published_at": "2026-11-26T15:17:18Z",
-      "feed": "bbc-world",
-      "source": "BBC News",
-      "group": "bbc",
-      "category": "markets",
-      "facts": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
