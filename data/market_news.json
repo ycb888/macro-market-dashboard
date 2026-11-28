@@ -1,68 +1,87 @@
 {
-  "collected_at": "2026-11-27T21:21:17Z",
+  "collected_at": "2026-11-28T03:32:09Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
-      "latest_published_at": "2026-11-27T21:05:05Z"
+      "last_success_at": "2026-11-28T03:32:09Z",
+      "latest_published_at": "2026-11-28T03:01:44Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
-      "latest_published_at": "2026-11-27T21:17:53Z"
+      "last_success_at": "2026-11-28T03:32:09Z",
+      "latest_published_at": "2026-11-27T22:49:15Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
-      "latest_published_at": "2026-11-27T19:50:52Z"
+      "last_success_at": "2026-11-28T03:32:09Z",
+      "latest_published_at": "2026-11-28T00:20:10Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
+      "last_success_at": "2026-11-28T03:32:09Z",
       "latest_published_at": "2026-11-27T16:05:32Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
-      "latest_published_at": "2026-11-27T20:57:04Z"
+      "last_success_at": "2026-11-28T03:32:09Z",
+      "latest_published_at": "2026-11-28T01:20:35Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
+      "last_success_at": "2026-11-28T03:32:09Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
+      "last_success_at": "2026-11-28T03:32:09Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
+      "last_success_at": "2026-11-28T03:32:09Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
+      "last_success_at": "2026-11-28T03:32:09Z",
       "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-27T21:21:17Z",
+      "last_success_at": "2026-11-28T03:32:09Z",
       "latest_published_at": "2026-11-27T14:00:00Z"
     }
   },
   "items": [
+    {
+      "title": "Vujcic and Kocher Hint at More ECB Rate Hiking, Kurier Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/vujcic-and-kocher-hint-at-more-ecb-rate-hiking-kurier-reports",
+      "published_at": "2026-11-27T22:49:15Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "European Central Bank Vice President Boris Vujcic and Governing Council member Martin Kocher suggested monetary policy will need to be tightened further, according to a joint interview in Kurier.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "translation_checked": true
+    },
     {
       "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
       "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo",
@@ -448,14 +467,14 @@
       "translation_checked": true
     },
     {
-      "title": "Emerging Stocks Head for Biggest Weekly Gain Since June",
+      "title": "Emerging-Market Stocks Snag Best Week Since June on Tech Rebound",
       "url": "https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing",
       "published_at": "2026-11-27T03:33:48Z",
       "feed": "bloomberg-markets",
       "source": "Bloomberg",
       "group": "bloomberg",
       "category": "markets",
-      "facts": "Emerging-market stocks headed for their biggest weekly gain since June as investors piled back into technology shares after a recent selloff.",
+      "facts": "Emerging-market stocks posted their biggest weekly gain since June as investors piled back into technology shares following a recent selloff, capping a volatile week across global markets.",
       "facts_basis": "publisher",
       "impact": {
         "direction": "watch",
