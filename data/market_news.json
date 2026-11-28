@@ -1,68 +1,184 @@
 {
-  "collected_at": "2026-11-28T03:32:09Z",
+  "collected_at": "2026-11-28T12:23:45Z",
   "feeds": {
     "bloomberg-markets": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
-      "latest_published_at": "2026-11-28T03:01:44Z"
+      "last_success_at": "2026-11-28T12:23:45Z",
+      "latest_published_at": "2026-11-28T11:56:38Z"
     },
     "bloomberg-economics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
-      "latest_published_at": "2026-11-27T22:49:15Z"
+      "last_success_at": "2026-11-28T12:23:45Z",
+      "latest_published_at": "2026-11-28T11:45:01Z"
     },
     "bloomberg-politics": {
       "group": "bloomberg",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
-      "latest_published_at": "2026-11-28T00:20:10Z"
+      "last_success_at": "2026-11-28T12:23:45Z",
+      "latest_published_at": "2026-11-28T09:07:25Z"
     },
     "bbc-business": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
-      "latest_published_at": "2026-11-27T16:05:32Z"
+      "last_success_at": "2026-11-28T12:23:45Z",
+      "latest_published_at": "2026-11-28T12:09:09Z"
     },
     "bbc-world": {
       "group": "bbc",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
-      "latest_published_at": "2026-11-28T01:20:35Z"
+      "last_success_at": "2026-11-28T12:23:45Z",
+      "latest_published_at": "2026-11-28T12:15:45Z"
     },
     "fed-monetary": {
       "group": "fed",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
+      "last_success_at": "2026-11-28T12:23:45Z",
       "latest_published_at": "2026-11-24T19:00:00Z"
     },
     "bls-cpi": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
+      "last_success_at": "2026-11-28T12:23:45Z",
       "latest_published_at": "2026-11-10T12:55:47Z"
     },
     "bls-jobs": {
       "group": "bls",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
+      "last_success_at": "2026-11-28T12:23:45Z",
       "latest_published_at": "2026-11-06T12:50:31Z"
     },
     "bea-releases": {
       "group": "bea",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
+      "last_success_at": "2026-11-28T12:23:45Z",
       "latest_published_at": "2026-11-25T13:30:00Z"
     },
     "eia-energy": {
       "group": "eia",
       "status": "ok",
-      "last_success_at": "2026-11-28T03:32:09Z",
+      "last_success_at": "2026-11-28T12:23:45Z",
       "latest_published_at": "2026-11-27T14:00:00Z"
     }
   },
   "items": [
+    {
+      "title": "Argentina's bid to stop Falkland Islands oil drilling rejected",
+      "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno",
+      "published_at": "2026-11-28T12:15:45Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "markets",
+      "facts": "A joint venture between UK-Israeli companies is set to start exploring for oil and gas, but Argentina sought to block it as part of its claim to sovereignty.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "India’s SEBI Weighs Exchange Platform for Pre-IPO Shares",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/india-s-sebi-weighs-exchange-platform-for-pre-ipo-shares",
+      "published_at": "2026-11-28T11:56:38Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "corporate",
+      "facts": "India’s markets regulator is weighing a specialized trading platform as part of efforts to rein in the grey market for shares of companies headed for initial public offerings.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关公司及同行",
+        "summary": "消息首先影响公司的盈利或合规预期，指数层面的影响取决于权重和行业传导。",
+        "watch": "公司公告、行业指数及相对表现",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+      "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo",
+      "published_at": "2026-11-28T11:35:34Z",
+      "feed": "bbc-world",
+      "source": "BBC News",
+      "group": "bbc",
+      "category": "corporate",
+      "facts": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "苹果 (AAPL)",
+        "summary": "消息首先影响公司的盈利或合规预期，指数层面的影响取决于权重和行业传导。",
+        "watch": "公司公告、行业指数及相对表现",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Thailand Looks to Seal EU Trade Deal by End-2027, PM Anutin Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/thailand-looks-to-seal-eu-trade-deal-by-end-2027-pm-anutin-says",
+      "published_at": "2026-11-28T11:17:38Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "geopolitics",
+      "facts": "Thailand expects to conclude talks on a free trade agreement with the European Union by the end of 2027, Prime Minister Anutin Charnvirakul said, adding that the recent conclusion of trade talks with the US has encouraged other partners to pursue deals with his country.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "受影响进出口板块",
+        "summary": "等待正式条款。若新增关税或限制落地，受影响进出口企业的利润和订单可能承压。",
+        "watch": "税率、覆盖范围、生效时间及豁免条款",
+        "basis": "待确认"
+      },
+      "translation_checked": true
+    },
+    {
+      "title": "Plunging Fuel Prices Bring Relief for Drivers and Central Banks",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/plunging-fuel-prices-bring-relief-for-drivers-and-central-banks",
+      "published_at": "2026-11-28T10:00:00Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "In a few short weeks, global fuel markets have lurched out of crisis, for now at least.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "在短短几周内,全球燃料市场至少在此时已经从危机中脱离了. De Σε λίγες εβδομάδες, Σε μερικές λίγες εβδομάδες εβδομάδες, τουλάχιστον, Οι παγκόσων αγορές αγορές καυσίμων καυσίμου καυσίβλυσίμων, V. Σε μια μικρή εβδομάδες, οι παγκόσμι­νο",
+      "translation_checked": true
+    },
+    {
+      "title": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain",
+      "published_at": "2026-11-28T06:39:08Z",
+      "feed": "bloomberg-markets",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "markets",
+      "facts": "India’s banking regulator is stepping up scrutiny of the nation’s $247 billion gold-loan sector as a sharp drop in bullion prices erodes the collateral that lenders demand from borrowers, according to people familiar with the matter.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关市场",
+        "summary": "这条报道涉及市场走势或资金流向，方向还需结合对应资产的实际表现。",
+        "watch": "主要指数、成交量、信用利差",
+        "basis": "待确认"
+      },
+      "facts_zh": "据了解,印度银行监管机构正在加大对该国247亿美元的黄金贷款部门的审查, 金价格急剧下跌, 债权人对贷款人要求的抵押金的侵蚀. 贷款人对贷方对贷款者对贷款人的担保证券的要求有所削弱. 贷者对贷者对债权益的要求有何? 证券价格大幅下跌, 债券价大幅下跌幅,",
+      "translation_checked": true
+    },
     {
       "title": "Vujcic and Kocher Hint at More ECB Rate Hiking, Kurier Reports",
       "url": "https://www.bloomberg.com/news/articles/2026-11-27/vujcic-and-kocher-hint-at-more-ecb-rate-hiking-kurier-reports",
@@ -176,6 +292,26 @@
         "watch": "实际值与预期、2 年期美债收益率",
         "basis": "需核对预期"
       },
+      "translation_checked": true
+    },
+    {
+      "title": "Bank Indonesia Says 2027 Focus to Be on Stability, Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/bank-indonesia-says-policy-focus-on-stability-inflation-in-2027",
+      "published_at": "2026-11-27T13:31:11Z",
+      "feed": "bloomberg-economics",
+      "source": "Bloomberg",
+      "group": "bloomberg",
+      "category": "macro",
+      "facts": "Bank Indonesia will stay focused on stability next year as it pursues monetary policy that keeps inflation within its target range, while confronting sustained pressure on the rupiah.",
+      "facts_basis": "publisher",
+      "impact": {
+        "direction": "watch",
+        "market": "相关股市",
+        "summary": "宏观数据或政策可能改变增长与利率预期，方向取决于结果相对预期的变化。",
+        "watch": "实际值与预期、2 年期美债收益率",
+        "basis": "需核对预期"
+      },
+      "facts_zh": "印尼银行将继续关注稳定,",
       "translation_checked": true
     },
     {
